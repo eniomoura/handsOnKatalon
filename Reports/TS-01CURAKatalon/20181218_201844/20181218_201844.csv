@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS-01CURAKatalon,Chrome 71.0.3578.98,"Teste de login, marcar consulta e verificar consulta",2018-12-18 20:18:51,2018-12-18 20:19:16,"25,257s",PASSED
+,,,,,,
+Test Cases/TC01 - Login,Chrome 71.0.3578.98,,2018-12-18 20:18:51,2018-12-18 20:19:00,"8,345s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 20:18:52,2018-12-18 20:18:55,"3,512s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-18 20:18:55,2018-12-18 20:18:58,"2,413s",PASSED
+"click(findTestObject(""login/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:18:58,2018-12-18 20:18:58,"0,441s",PASSED
+"setText(findTestObject(""login/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2018-12-18 20:18:58,2018-12-18 20:18:58,"0,183s",PASSED
+"setEncryptedText(findTestObject(""login/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 71.0.3578.98,,2018-12-18 20:18:58,2018-12-18 20:18:59,"0,213s",PASSED
+"click(findTestObject(""login/button_Login""))",Chrome 71.0.3578.98,,2018-12-18 20:18:59,2018-12-18 20:18:59,"0,489s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-18 20:18:59,2018-12-18 20:19:00,"0,632s",PASSED
+,,,,,,
+Test Cases/TC02 - MarcarConsulta,Chrome 71.0.3578.98,,2018-12-18 20:19:00,2018-12-18 20:19:07,"7,635s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 20:19:00,2018-12-18 20:19:02,"2,208s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-18 20:19:02,2018-12-18 20:19:05,"2,506s",PASSED
+"click(findTestObject(""MarcarConsulta/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:19:05,2018-12-18 20:19:05,"0,367s",PASSED
+"setText(findTestObject(""MarcarConsulta/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2018-12-18 20:19:05,2018-12-18 20:19:05,"0,160s",PASSED
+"setEncryptedText(findTestObject(""MarcarConsulta/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 71.0.3578.98,,2018-12-18 20:19:05,2018-12-18 20:19:05,"0,156s",PASSED
+"click(findTestObject(""MarcarConsulta/button_Login""))",Chrome 71.0.3578.98,,2018-12-18 20:19:05,2018-12-18 20:19:06,"0,482s",PASSED
+"click(findTestObject(""MarcarConsulta/label_Apply for hospital readm""))",Chrome 71.0.3578.98,,2018-12-18 20:19:06,2018-12-18 20:19:06,"0,138s",PASSED
+"click(findTestObject(""MarcarConsulta/span_Visit Date (Required)_gly""))",Chrome 71.0.3578.98,,2018-12-18 20:19:06,2018-12-18 20:19:06,"0,110s",PASSED
+"click(findTestObject(""MarcarConsulta/td_11""))",Chrome 71.0.3578.98,,2018-12-18 20:19:06,2018-12-18 20:19:06,"0,105s",PASSED
+"setText(findTestObject(""MarcarConsulta/textarea_Comment_comment""), ""consulta"")",Chrome 71.0.3578.98,,2018-12-18 20:19:06,2018-12-18 20:19:06,"0,114s",PASSED
+"click(findTestObject(""MarcarConsulta/button_Book Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:19:06,2018-12-18 20:19:07,"0,309s",PASSED
+"check(findTestObject(""MarcarConsulta/div_Appointment Confirmation""))",Chrome 71.0.3578.98,,2018-12-18 20:19:07,2018-12-18 20:19:07,"0,141s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-18 20:19:07,2018-12-18 20:19:07,"0,621s",PASSED
+,,,,,,
+Test Cases/TC03 - Verificar Consulta,Chrome 71.0.3578.98,,2018-12-18 20:19:07,2018-12-18 20:19:16,"8,317s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 20:19:08,2018-12-18 20:19:10,"2,161s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-18 20:19:10,2018-12-18 20:19:13,"3,033s",PASSED
+"click(findTestObject(""VerificarConsulta/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:19:13,2018-12-18 20:19:13,"0,378s",PASSED
+"setText(findTestObject(""VerificarConsulta/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2018-12-18 20:19:13,2018-12-18 20:19:13,"0,176s",PASSED
+"setEncryptedText(findTestObject(""VerificarConsulta/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 71.0.3578.98,,2018-12-18 20:19:13,2018-12-18 20:19:13,"0,161s",PASSED
+"click(findTestObject(""VerificarConsulta/button_Login""))",Chrome 71.0.3578.98,,2018-12-18 20:19:13,2018-12-18 20:19:14,"0,492s",PASSED
+"click(findTestObject(""VerificarConsulta/label_Apply for hospital readm""))",Chrome 71.0.3578.98,,2018-12-18 20:19:14,2018-12-18 20:19:14,"0,144s",PASSED
+"click(findTestObject(""VerificarConsulta/span_Visit Date (Required)_gly""))",Chrome 71.0.3578.98,,2018-12-18 20:19:14,2018-12-18 20:19:14,"0,107s",PASSED
+"click(findTestObject(""VerificarConsulta/td_11""))",Chrome 71.0.3578.98,,2018-12-18 20:19:14,2018-12-18 20:19:14,"0,108s",PASSED
+"setText(findTestObject(""VerificarConsulta/textarea_Comment_comment""), ""consulta"")",Chrome 71.0.3578.98,,2018-12-18 20:19:14,2018-12-18 20:19:14,"0,111s",PASSED
+"click(findTestObject(""VerificarConsulta/button_Book Appointment""))",Chrome 71.0.3578.98,,2018-12-18 20:19:14,2018-12-18 20:19:15,"0,298s",PASSED
+"check(findTestObject(""VerificarConsulta/div_Appointment Confirmation""))",Chrome 71.0.3578.98,,2018-12-18 20:19:15,2018-12-18 20:19:15,"0,141s",PASSED
+"click(findTestObject(""VerificarConsulta/i_CURA Healthcare_fa fa-bars""))",Chrome 71.0.3578.98,,2018-12-18 20:19:15,2018-12-18 20:19:15,"0,083s",PASSED
+"click(findTestObject(""VerificarConsulta/a_History""))",Chrome 71.0.3578.98,,2018-12-18 20:19:15,2018-12-18 20:19:15,"0,309s",PASSED
+"check(findTestObject(""VerificarConsulta/div_History""))",Chrome 71.0.3578.98,,2018-12-18 20:19:15,2018-12-18 20:19:15,"0,115s",PASSED
+"click(findTestObject(""VerificarConsulta/a_Go to Homepage""))",Chrome 71.0.3578.98,,2018-12-18 20:19:15,2018-12-18 20:19:16,"0,285s",PASSED
